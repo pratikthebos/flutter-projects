@@ -1,0 +1,46 @@
+name: interior360_demo
+
+description: Flutter 360 Interior Design Demo App
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  provider: ^6.1.2
+
+  panorama_viewer: ^2.0.6
+
+  photo_view: ^0.15.0
+
+  flutter_animate: ^4.5.0
+
+  animated_widgets: ^1.1.0
+
+  dotted_border: ^2.1.0
+
+  uuid: ^4.5.1
+
+  vector_math: ^2.1.4
+
+  screenshot: ^3.0.0
+
+  share_plus: ^10.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
+    - assets/images/rooms/
+
+    - assets/images/furniture/
